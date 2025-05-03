@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "api/postback.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/api/postback", "dest": "/api/postback.js" }
+    ]
+  }
+  
